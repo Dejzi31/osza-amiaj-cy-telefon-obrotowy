@@ -1,0 +1,4 @@
+include ':libraries:core',
+        ':databases'
+
+project(':libraries:core').projectDir = new File('libraries/core/android/core')
